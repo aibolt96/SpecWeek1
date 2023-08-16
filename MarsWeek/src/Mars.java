@@ -19,6 +19,7 @@ public class Mars {
         } else {
             System.out.println("ERROR!!! Flight plan already set. Landing on " + landingLocation);
         }
+        new GuessingGame();
     }
 
     public static boolean landingCheck(int minutesLeft) throws InterruptedException {
